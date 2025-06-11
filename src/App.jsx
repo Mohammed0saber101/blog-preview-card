@@ -1,4 +1,5 @@
 import illustration from "./assets/images/illustration-article.svg";
+import avatar from "./assets/images/image-avatar.webp";
 
 function App() {
   return (
@@ -28,11 +29,7 @@ function App() {
       </div>
 
       <div className="flex items-center gap-3">
-        <img
-          src="/images/image-avatar.webp"
-          alt="image-avatar"
-          className="h-8 w-8"
-        />
+        <img src={avatar} alt="image-avatar" className="h-8 w-8" />
         <p className="font-display-800 text-[14px] text-gray-950 ">
           Greg Hooper
         </p>
